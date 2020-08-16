@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@drawable/b2"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:text="2020/10/15"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+
+
+                <TextView
+                    android:id="@id/time"
+                    style="@style/widgetText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:layout_below="@+id/date"
+                    android:text="10 :23 " />
+
+
+    </RelativeLayout>
+    <!--    al-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="4dp">
+
+
+        <ImageView
+            android:id="@+id/how"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp" />
+        <!--                    <TextView-->
+        <!--                        android:layout_width="wrap_content"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:gravity="center"-->
+        <!--                        android:textColor="#fff"-->
+        <!--                        android:fontFamily="@font/ranmadu"-->
+        <!--                        android:text="        ;j wjq 2' udi 2 oska 26  "-->
+        <!--                        android:textSize="30sp"-->
+        <!--                         />-->
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

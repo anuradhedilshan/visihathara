@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "490676095714",
+    "firebase_url": "https://visihathara.firebaseio.com",
+    "project_id": "visihathara",
+    "storage_bucket": "visihathara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490676095714:android:de57c6915878a345f6ecbb",
+        "android_client_info": {
+          "package_name": "lk.lab24.visihatharaclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490676095714-tmn8rdj0d91f9k73q7tprri0v2q7g706.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.lab24.visihatharaclock",
+            "certificate_hash": "6c9f2d0839ee73f2d4fd24d74c8fac9373fc8c01"
+          }
+        },
+        {
+          "client_id": "490676095714-urgim5nmijkd1p53bpof7c97i25grues.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGo_k24H9xpBHV_hi07xjQmJiZNa5891M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490676095714-urgim5nmijkd1p53bpof7c97i25grues.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

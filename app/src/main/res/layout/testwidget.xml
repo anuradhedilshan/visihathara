@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:paddingBottom="5dp"
+        android:background="#2021248f"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="20dp"
+                android:text="10 : 20"
+                android:textSize="40sp"
+                android:paddingEnd="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/time"
+                android:layout_alignRight="@+id/time"
+                android:text="am"
+                android:layout_alignEnd="@+id/time" />
+        </RelativeLayout>
+        <!--    al-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="4dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/al"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/how"
+                android:layout_alignLeft="@+id/how"
+                android:text="2021 Al"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/how"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/ranmadu"
+                android:text="        ;j osk wjq 2' oska 26 meh 5 "
+                android:textSize="30sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
